@@ -16,7 +16,7 @@ set(CMAKE_CSharp_FLAGS "/langversion:latest")
 add_executable(${PROJECT_NAME} ${SRC})
 set_target_properties(${PROJECT_NAME} PROPERTIES 
     VS_DOTNET_TARGET_FRAMEWORK_VERSION ${DOTNET_TARGET_FRAMEWORK}
-    VS_DOTNET_REFERENCES  "System" "System.IO" "System.Text.RegularExpressions"
+    VS_DOTNET_REFERENCES  "System"; "System.IO" ; "System.Text.RegularExpressions";
     CMAKE_CSharp_COMPILER ${CMAKE_CSharp_FLAGS}
     LINKER_LANGUAGE CSharp
     CMAKE_WIN32_EXECUTABLE TRUE
