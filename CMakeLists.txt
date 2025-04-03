@@ -2,13 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 
 message(STATUS "CMake version: ${CMAKE_VERSION}")
 
-if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
-    message(STATUS "This is the top-level CMakeLists.txt")
-    project(CPPParser LANGUAGES CSharp  )
-else()
-    message(STATUS "This is a subdirectory CMakeLists.txt")
-endif()
-
+project(CPPParser LANGUAGES CSharp)
 include(CSharpUtilities)
 
 message(STATUS "Configuring REFLECTION ${REFLECTION_VERSION}")
