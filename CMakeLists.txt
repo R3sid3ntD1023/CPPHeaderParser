@@ -7,7 +7,6 @@ if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
     project(CPPParser LANGUAGES CSharp  )
 else()
     message(STATUS "This is a subdirectory CMakeLists.txt")
-    project(CPPParser LANGUAGES  CSharp )
 endif()
 
 include(CSharpUtilities)
@@ -16,7 +15,7 @@ message(STATUS "Configuring REFLECTION ${REFLECTION_VERSION}")
 
 file(GLOB_RECURSE SRC CMAKE_CONFIGURE_DEPENDS src/*.cs)
 
-set(PROJECT_NAME CPPReflector)
+set(PROJECT_NAME CppHeaderParser)
 set(DOTNET_TARGET_FRAMEWORK "v4.7.2")
 set(CMAKE_CSharp_FLAGS "/langversion:latest")
 
