@@ -5,7 +5,7 @@ message(STATUS "CMake version: ${CMAKE_VERSION}")
 project(CPPParser LANGUAGES CSharp)
 include(CSharpUtilities)
 
-message(STATUS "Configuring REFLECTION ${REFLECTION_VERSION}")
+message(STATUS "Configuring CPPHeaderParser...")
 
 file(GLOB_RECURSE SRC CMAKE_CONFIGURE_DEPENDS src/*.cs)
 
