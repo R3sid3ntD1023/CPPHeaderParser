@@ -1,0 +1,114 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCSharpCompiler.cmake:23 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CSharp compiler identification source file "CMakeCSharpCompilerId.cs" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/3/2025 12:13:58 PM.
+      
+      Project "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\CompilerIdCSharp.csproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "obj\\x64\\Debug\\".
+      CoreCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /define:Platformx64;PlatformToolsetv143 /highentropyva+ /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Core.dll" /debug+ /out:obj\\x64\\Debug\\CompilerIdCSharp.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 CMakeCSharpCompilerId.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+        CompilerServer: server - server processed compilation - CompilerIdCSharp
+      CopyFilesToOutputDirectory:
+        Copying file from "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.exe" to "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\CompilerIdCSharp.exe".
+        CompilerIdCSharp -> C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\CompilerIdCSharp.exe
+        Copying file from "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.pdb" to "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\CompilerIdCSharp.pdb".
+      PostBuildEvent:
+        if not "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn"=="" if exist "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe" set _CSC=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn
+        if exist "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\csc.exe" set _CSC=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64
+        if "%_CSC%"=="" exit -1
+        @echo CMAKE_CSharp_COMPILER=%_CSC%\\csc.exe
+        CMAKE_CSharp_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe
+      Done Building Project "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCSharp\\CompilerIdCSharp.csproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:06.88
+      
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.csproj"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.exe"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.pdb"
+      
+      The CSharp compiler identification could not be found in:
+        C:/Users/dariu/Documents/headerparser/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdCSharp/CompilerIdCSharp.csproj
+      
+      The CSharp compiler identification is Microsoft Visual Studio, found in:
+        C:/Users/dariu/Documents/headerparser/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdCSharp/CompilerIdCSharp.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCSharpCompiler.cmake:34 (try_compile)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Check for working C# compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/csc.exe"
+    directories:
+      source: "C:/Users/dariu/Documents/headerparser/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yva0oz"
+      binary: "C:/Users/dariu/Documents/headerparser/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yva0oz"
+    cmakeVariables:
+      CMAKE_CSharp_FLAGS: "/platform:x64 /define:TRACE"
+      CMAKE_CSharp_FLAGS_DEBUG: "/debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_INSTALLED_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CSharp_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dariu/Documents/headerparser/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yva0oz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4024f.csproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/3/2025 12:14:07 PM.
+        
+        Project "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\cmTC_4024f.csproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\Debug\\".
+          Creating directory "obj\\x64\\Debug\\".
+        CoreCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:x64 /errorreport:prompt /warn:3 /define:TRACE;DEBUG /highentropyva+ /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Core.dll" /debug+ /debug:full /optimize- /out:obj\\x64\\Debug\\cmTC_4024f.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\testCSharpCompiler.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+          CompilerServer: server - server processed compilation - cmTC_4024f
+        CopyFilesToOutputDirectory:
+          Copying file from "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\obj\\x64\\Debug\\cmTC_4024f.exe" to "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\Debug\\cmTC_4024f.exe".
+          cmTC_4024f -> C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\Debug\\cmTC_4024f.exe
+          Copying file from "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\obj\\x64\\Debug\\cmTC_4024f.pdb" to "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\Debug\\cmTC_4024f.pdb".
+        Done Building Project "C:\\Users\\dariu\\Documents\\headerparser\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yva0oz\\cmTC_4024f.csproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.99
+        
+      exitCode: 0
+...
